@@ -1,3 +1,6 @@
+import {somma} from "./math.js";
+import {Point} from "./point.js";
+
 console.log("script start");
 console.log(new Date());
 
@@ -21,9 +24,10 @@ while(i<10){
     i+=1;
 }
 
-console.log('somma: ' + somma(10,10));
 
-function somma(n1,n2){
-    let res = n1 + n2;
-    return res;
-}
+console.log('somma: ' + somma(15,10));
+
+let p = new Point(10,10);
+console.log(p.tostring());
+p.move(5,15);
+console.log(p.tostring());
