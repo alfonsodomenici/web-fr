@@ -1,0 +1,87 @@
+body {
+    background-color: azure;
+}
+
+/*
+selettori elemnti html
+*/
+.title {
+    color: brown;
+}
+
+/*
+Menu principale
+*/
+
+menu li {
+    display: inline-block;
+    height: 20px;
+    margin: 10px 2px;
+}
+
+menu li a {
+    padding: .5em 2em;
+    background-color: antiquewhite;
+    list-style-type: none;
+    text-decoration: none;
+    color: brown;
+}
+
+menu li a:hover {
+    background-color: brown;
+    color: antiquewhite;
+}
+
+
+.box {
+    box-sizing: border-box;
+    background-color: antiquewhite;
+    width: 350px;
+    height: 100vh;
+    margin: 10px auto;
+    padding: 25px;
+    border: 5px solid black;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    
+}
+
+th, td{
+    padding: 20px;
+}
+
+thead th{
+    background-color: burlywood;
+}
+thead th:nth-child(1) {
+    width: 20%;
+}
+
+thead th:nth-child(2) {
+    width: 20%;
+}
+
+thead th:nth-child(3) {
+    width: 60%;
+}
+
+caption{
+    font-size: 2rem;
+    font-weight: 500;
+    background-color: antiquewhite;
+}
+
+tbody td{
+    text-align: center;
+}
+tbody tr:hover{
+    background-color: darkkhaki;
+    cursor: pointer;
+}
+
+tfoot th{
+    background-color: antiquewhite;
+}
